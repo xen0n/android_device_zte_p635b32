@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_zte_p635-common",
+    "target_path": "device/zte/p635-common"
+  }
+]
