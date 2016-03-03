@@ -66,6 +66,11 @@ ro.sim_me_lock_mode=0
 ro.com.android.mobiledata=false
 persist.radio.mobile.data=0,0
 
+# VoLTE
+ro.mtk_ims_support=1
+ro.mtk_volte_support=1
+persist.dbg.volte_avail_ovr=1
+
 
 # WiFi / BT
 wifi.interface=wlan0
@@ -200,13 +205,13 @@ ro.have_aee_feature=1
 wfd.dummy.enable=1
 ro.mediatek.project.path=device/zte/P635B32
 persist.meta.dumpdata=0
-ro.build.sw_internal_version=P635B32V1.0.0B04
-ro.build.sw_internal_time=201512301847
-ro.build.sw_release_time=1451470708
+ro.build.sw_internal_version=P635B32V1.0.0B07
+ro.build.sw_internal_time=201602031813
+ro.build.sw_release_time=1454493231
 ro.product.customize=P635B32
 ro.product.internal_model=P635B32
 ro.feature.ct_fmc.support=true
-apps.setting.product.release=C880AV1.0.0B01
+apps.setting.product.release=C880AV1.0.0B02
 ro.build.hadword.id=MBV1.0
-ro.mtk_md_sbp_custom_value=0
+ro.mtk_md_sbp_custom_value=1
 ro.product.selfreg=ZTE-C880A
