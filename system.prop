@@ -65,6 +65,8 @@ ro.sim_refresh_reset_by_modem=1
 ro.sim_me_lock_mode=0
 ro.com.android.mobiledata=false
 persist.radio.mobile.data=0,0
+# disable flex mapping for mtk on cm
+persist.radio.disable_flexmap=1
 
 # VoLTE
 ro.mtk_ims_support=1
